@@ -2,7 +2,10 @@
 
 int main(void)
 {
-	char a;
-	scanf("%c", &a);
-	printf("%c\n", a);
+	char a, b, c;
+	printf("문자 입력: ");
+	scanf("%c %c %c", &a, &b, &c);
+	printf("%c,%c,%c\n", a, b, c);
+
+	return 0;
 }
